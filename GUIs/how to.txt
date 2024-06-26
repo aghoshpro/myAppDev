@@ -1,0 +1,55 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ PS C:\Users\arkag> z:
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ PS Z:\> cd .\Apps\shoppingListX\
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ PS Z:\Apps\shoppingListX> npm install
+
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+ a package name change
+
+added 384 packages, and audited 385 packages in 35s
+
+55 packages are looking for funding
+  run `npm fund` for details
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ PS Z:\Apps\shoppingListX> npm start
+
+> shoppingListX@1.0.0 start
+> electron .
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ PS Z:\Apps\shoppingListX> npm install electron-builder --save-dev
+
+removed 136 packages, and audited 249 packages in 2s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ PS Z:\Apps\shoppingListX> npm install electron --save-dev
+
+added 68 packages, removed 20 packages, and audited 297 packages in 7s
+
+48 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ PS Z:\Apps\shoppingListX> npm install electron-packager --save-dev
+npm warn deprecated electron-packager@17.1.2: Please use @electron/packager moving forward. There is no API change, just a package name change
+
+added 56 packages, and audited 353 packages in 6s
+
+55 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ PS Z:\Apps\shoppingListX> npm run package-win
+
+> shoppingListX@1.0.0 package-win
+> electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName="Shopping List"
+
+WARNING: --asar does not take any arguments, it only has sub-properties (see --help)
+Packaging app for platform win32 ia32 using electron v31.1.0
+Wrote new app to: release-builds\shoppingListX-win32-ia32
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  PS Z:\Apps\shoppingListX>
