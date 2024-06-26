@@ -2,9 +2,6 @@
 
 This is a cross platform desktop application built on electron
 
-### Version
-1.0.0
-
 ## To run
 
 * Open you favotire `cmd` or `terminal` and nevigate to your chosen app folder, Run the folwing command to install the dependencies
@@ -18,6 +15,10 @@ This is a cross platform desktop application built on electron
     ```sh
     npm start
     ```
+## In action 
+### Simple Calculator
+<center><img src="viz/simpleCal.gif" height = 200 width = 400></center>
+
 
 ## To Package & Build
 Follow the steps,
