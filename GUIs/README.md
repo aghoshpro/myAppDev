@@ -15,9 +15,9 @@ This is a cross platform desktop application built on electron
     ```sh
     npm start
     ```
-## In action 
-### Simple Calculator
-<center><img src="viz/simpleCal.gif" height = 200 width = 400></center>
+* After successful start
+    ### Simple Calculator  (as an example)
+    <center> <img src="viz/simpleCal.gif" height = 400 width = 800></center>
 
 
 ## To Package & Build
