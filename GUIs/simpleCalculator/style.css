@@ -1,5 +1,11 @@
 /* style.css */
 
+:root {
+  /* font-family */
+  --ff-jetBrains: 'JetBrains Mono', 'Courier New', Courier, monospace;
+
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -25,6 +31,7 @@ body {
   background-color: #222;
   color: #00ca0d;
   font-size: 1.5em;
+  font-family: var(--ff-jetBrains);
   margin-bottom: 10px;
   padding-right: 10px;
 }
@@ -42,7 +49,7 @@ button {
   background-color: #eee;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: 0 0 10px rgb(0, 0, 0);
+  box-shadow: 4px 4px 2px 0px rgb(0 0 0);
 }
 
 button.operator {
