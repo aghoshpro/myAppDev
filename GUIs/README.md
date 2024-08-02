@@ -86,7 +86,7 @@
 
 ## 2. To Package & Build .exe
 
-- Resource: https://www.christianengvall.se/electron-packager-tutorial/
+- Guide: https://www.christianengvall.se/electron-packager-tutorial/
 
 ### 2.1. Add dependencies
 
@@ -123,7 +123,7 @@ Follow the steps to add to `package.json`
   - Windows
 
     ```sh
-    		"package-win": "electron-packager . appName --overwrite --platform=win32 --arch=ia32 --icon=Icon/2-CalTopo.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\""
+    "package-win": "electron-packager . appName --overwrite --platform=win32 --arch=ia32 --icon=Icon/2-CalTopo.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\""
     ```
 
   - MacOS
@@ -182,13 +182,3 @@ Run the suitable command to build the executable file for any Os. Click and Run.
   ```sh
   npm run package-linux
   ```
-
-# 100 Apps Challenge
-
-## #01 - Simple Calculator
-
-<img src="./viz/sompleCalculator.PNG" width="300">
-
-## #02 - calTopo
-
-<img src="./viz/calTopo@.png">

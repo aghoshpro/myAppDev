@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalTOPO</title>
+    <link rel="shortcut icon" href="./map.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+
+        <h1> Topology Calculator <img src="Paomedia-Small-N-Flat-Map-map-marker.svg" style="width: 50px;"
+                alt="map-icon">
+        </h1>
+
+        <div class="row-container">
+
+            <div class="col-container">
+                <div class="input-box">
+                    <b>Latitude</b>
+                    <input id="lat" type="text" placeholder="-90S to 90N">
+
+                    <b>Longitude</b>
+                    <input id="lon" type="text" placeholder="-180W to 180E">
+
+                </div>
+                <button id="submit-btn"><b>Search</b></button>
+                <b>TopoSheet No</b>
+                <input id="output-box" type="text" class="output-box" disabled />
+            </div>
+
+            <div id="map" class="map-box"></div>
+        </div>
+
+
+    </main>
+
+
+</body>
+
+</html>
+
+<!-- https://www.britannica.com/science/altitude-angular -->
+<!-- https://leaflet-extras.github.io/leaflet-providers/preview/ -->
