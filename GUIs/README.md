@@ -22,7 +22,7 @@
   {
   	"name": "caltopoapp",
   	"version": "1.0.0",
-  	"description": "To calculate toposheet no and visualize it on interactive map based on input latitude and longitude ",
+  	"description": "Give a precise description of the app",
   	"main": "main.js",
   	"scripts": {
   		"start": "electron ."
@@ -30,7 +30,6 @@
   	"author": "Arka Ghosh",
   	"license": "MIT"
   }
-
   ```
 
 ### 1.1. Create `main.js`
@@ -67,7 +66,6 @@
   createWindow();
   }
   });
-
   ```
 
 ### 1.2. Paste `index.html`, `style.css` and `script.js`
@@ -80,17 +78,11 @@
   npm install electron --save-dev
   ```
 
-- To run the application using electron
+- Run following command to run the app
 
   ```sh
   npm start
   ```
-
-  Now your app should be running.
-
-  <!-- - After successful start
-    ### Simple Calculator (as an example)
-      <center> <img src="viz/simpleCal.gif" height = 400 width = 800></center> -->
 
 ## 2. To Package & Build .exe
 
@@ -116,11 +108,11 @@ Follow the steps to add to `package.json`
 
 - After running all of the above the `package.json` should have something like following,
 
-  ```
+  ```sh
   "devDependencies": {
-      "electron": "^31.1.0",
-      "electron-builder": "^24.3.0",
-      "electron-packager": "^17.1.2"
+  	"electron": "^31.3.1",
+  	"electron-builder": "^24.13.3",
+  	"electron-packager": "^17.1.2"
   }
   ```
 
@@ -131,7 +123,7 @@ Follow the steps to add to `package.json`
   - Windows
 
     ```sh
-    "package-win": "electron-packager . calculator-app --platform=win32 --arch=x64 --out=dist --overwrite"
+    		"package-win": "electron-packager . appName --overwrite --platform=win32 --arch=ia32 --icon=Icon/2-CalTopo.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\""
     ```
 
   - MacOS
@@ -154,11 +146,11 @@ Follow the steps to add to `package.json`
 {
 	"name": "caltopoapp",
 	"version": "1.0.0",
-	"description": "To calculate toposheet no and visualize it on interactive map based on input latitude and longitude ",
+	"description": "Give a precise description of the app",
 	"main": "main.js",
 	"scripts": {
 		"start": "electron .",
-		"package-win": "electron-packager . calculator-app --platform=win32 --arch=x64 --out=dist --overwrite"
+		"package-win": "electron-packager . appName --overwrite --platform=win32 --arch=ia32 --icon=Icon/2-CalTopo.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\""
 	},
 	"author": "Arka Ghosh",
 	"license": "MIT",
@@ -195,7 +187,7 @@ Run the suitable command to build the executable file for any Os. Click and Run.
 
 ## #01 - Simple Calculator
 
-<img src="./viz/sompleCalculator.PNG" width="200">
+<img src="./viz/sompleCalculator.PNG" width="300">
 
 ## #02 - calTopo
 
