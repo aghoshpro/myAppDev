@@ -1,6 +1,6 @@
 # 100 Apps Challenge
 
-It contains all the apps of three categories `DesktopApps`, `WebApps`, `MobileApps` that I have taken the challenge to build
+Contains all the apps of three categories `DesktopApp`, `WebApp`, `MobileApp` that I have taken the challenge to build
 
 <!-- by learning many different programming languages. -->
 
@@ -13,6 +13,18 @@ It contains all the apps of three categories `DesktopApps`, `WebApps`, `MobileAp
 ## #02 - calTopo
 
 <img src="./Output/calTopo@.png">
+
+## #03 - GeoVisual Analytics
+
+Based on the EU population using `leaflet.js`, `turf.js` and `d3.js` and can be extended to any other data represented in `.csv` and `.json`
+
+<img src="./Output/EUturf.png">
+
+## #04 - Raster Visualization
+
+Based on the EU population using `leaflet.js`, `turf.js` and `d3.js` and can be extended to any other data represented in `.csv` and `.json`
+
+<img src="./Output/Raster.png">
 
 <!-- ## Mobile Apps
 
