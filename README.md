@@ -18,13 +18,13 @@ Contains all the apps of three categories `DesktopApp`, `WebApp`, `MobileApp` th
 
 Based on the EU population using `leaflet.js`, `turf.js` and `d3.js` and can be extended to any other data represented in `.csv` and `.json`
 
-<img src="./Output/EUturf.png">
+[<img src="./Output/EUturf.png">](https://aghoshpro.vercel.app/EUPopulation.html)
 
 ## #04 - Raster Visualization
 
 Based on the EU population using `leaflet.js`, `turf.js` and `d3.js` and can be extended to any other data represented in `.csv` and `.json`
 
-<img src="./Output/Raster.png">
+[<img src="./Output/Raster.png">](https://aghoshpro.vercel.app/OntoRasterViz.html)
 
 <!-- ## Mobile Apps
 
